@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia e Descriptografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <img id="placeholder-image" src="placeholder.jpg" alt="Placeholder Image">
+            <input id="input-text" type="text" placeholder="Digite seu texto aqui...">
+            <div class="buttons">
+                <button id="encrypt-btn">Criptografar</button>
+                <button id="decrypt-btn">Descriptografar</button>
+            </div>
+            <button id="copy-btn">Copiar Resultado</button>
+        </div>
+        <div class="right-side">
+            <input id="output-text" type="text" placeholder="Resultado aparecerá aqui..." readonly>
+        </div>
+    </div>
+    <p id="validation-message">Somente letras minúsculas e números são aceitos. Caracteres especiais e letras maiúsculas serão ignorados.</p>
+    <script src="script.js"></script>
+</body>
+</html>
